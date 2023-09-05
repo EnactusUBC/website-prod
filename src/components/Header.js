@@ -37,9 +37,9 @@ export default function Header() {
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
-          <a href='/' className=''>
+          <Link href='/' className=''>
             <img className='h-12 w-auto' src='/Logo.png' alt='' />
-          </a>
+          </Link>
         </div>
         <div className='flex lg:hidden'>
           <button
