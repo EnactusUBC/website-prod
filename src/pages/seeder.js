@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 {/* All need to change */}
 import bannerPath from "../images/seeder/Banner.jpeg"
-import logoPath from "../images/ENNOVATE-W.png"
+import logoPath from "../images/seeder/seeder-logo.png"
 import squarePhoto from "../images/seeder/seeder-square.png"
 import smallPhoto1 from "../images/seeder/small1-seeder.jpg"
 import smallPhoto2 from "../images/seeder/small2-seeder.jpg"
@@ -23,7 +23,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <main>
-
+      <Header />
       {/* BANNER at the top */}
       <div class="h-96 relative overflow-hidden" id="banner">
         <Image
@@ -138,6 +138,7 @@ export default function Home() {
     }}
   ></div>
 </div>
+<Footer />
     </main>
   );
 }

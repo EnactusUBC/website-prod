@@ -1,7 +1,7 @@
 const navigation = [
   {
     name: 'Email',
-    href: 'mailto:youremail@example.com', // Replace with your actual email address
+    href: 'mailto:internal.enactusubc@gmail.com', // Replace with your actual email address
     icon: (props) => (
 <svg fill='currentColor' viewBox="0 0 8 6" {...props}>
       <path 
@@ -12,7 +12,7 @@ const navigation = [
   },
   {
     name: 'Facebook',
-    href: '#',
+    href: 'https://www.facebook.com/enactusubc',
     icon: (props) => (
       <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
         <path
@@ -25,7 +25,7 @@ const navigation = [
   },
   {
     name: 'Instagram',
-    href: '#',
+    href: 'https://www.instagram.com/enactusubc/',
     icon: (props) => (
       <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
         <path
@@ -38,7 +38,7 @@ const navigation = [
   },
   {
     name: 'LinkedIn',
-    href: '#', // Update the href to your LinkedIn profile URL
+    href: 'https://www.linkedin.com/company/enactus-ubc/', // Update the href to your LinkedIn profile URL
     icon: (props) => (
 <svg fill='currentColor' viewBox='0 0 24 24' {...props}>
   <path
@@ -60,6 +60,7 @@ export default function Footer() {
             <a
               key={item.name}
               href={item.href}
+              target="_blank"
               className='text-gray-400 hover:text-gray-500'
             >
               <span className='sr-only'>{item.name}</span>
@@ -78,7 +79,7 @@ export default function Footer() {
           </h1>
 
           <h2 className='text-center text-md leading-5 text-white mt-4'>
-            For general contact, please email us -{'>'}
+            Made with love by the tech team ❤️
           </h2>
         </div>
       </div>

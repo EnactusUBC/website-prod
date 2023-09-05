@@ -16,13 +16,14 @@ import PD2 from "../images/building-bridges/ghita.png"
 import linkedin from "../images/LinkedinLogo.png"
 import ig from "../images/IGLogo.png"
 import mail from "../images/EmailLogo.png"
+import { FocusTrap } from '@headlessui/react';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
     <main>
-
+      <Header />
       {/* BANNER at the top */}
       <div class="h-96 relative overflow-hidden" id="banner">
         <Image
@@ -145,6 +146,7 @@ export default function Home() {
     }}
   ></div>
 </div>
+    <Footer />
     </main>
   );
 }

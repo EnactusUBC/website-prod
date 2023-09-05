@@ -13,7 +13,6 @@ const Xsvg = () => {
 
 export default function CompetitionPage() {
     return (
-
       <main className="overflow-x-hidden">
         <Header />
         <div className="ml-8 lg:ml-24 mt-8 lg:mt-20">

@@ -37,7 +37,7 @@ export default function Header() {
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
-          <a href='#' className=''>
+          <a href='/' className=''>
             <img className='h-12 w-auto' src='/Logo.png' alt='' />
           </a>
         </div>
@@ -118,7 +118,7 @@ export default function Header() {
 
           <Popover className='relative'>
             <Popover.Button className='flex items-center gap-x-1 text-sm font-semibold leading-6 text-[#FBFCFD]'>
-              Join our Team
+              Get Involved
               <ChevronDownIcon
                 className='h-5 w-5 flex-none text-gray-400'
                 aria-hidden='true'

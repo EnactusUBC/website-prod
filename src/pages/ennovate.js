@@ -21,6 +21,7 @@ const inter = Inter({ subsets: ['latin'] });
 export default function Home() {
   return (
     <main>
+      <Header />
 
       {/* BANNER at the top */}
       <div class="h-96 relative overflow-hidden" id="banner">
@@ -143,6 +144,7 @@ Ennovate directly impacted 1000 students, generated over $8000 in student-led bu
     }}
   ></div>
 </div>
+    <Footer />
     </main>
   );
 }

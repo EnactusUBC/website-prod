@@ -20,6 +20,7 @@ import mail from "../images/EmailLogo.png"
 export default function Home() {
   return (
     <main>
+      <Header />      
       {/* BANNER at the top */}
       <div class="h-96 relative overflow-hidden" id="banner">
         <Image
@@ -135,6 +136,7 @@ export default function Home() {
     }}
   ></div>
 </div>
+<Footer />
     </main>
   );
 }
