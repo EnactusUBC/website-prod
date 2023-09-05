@@ -6,6 +6,7 @@ import {
   PhoneIcon,
   PlayCircleIcon
 } from '@heroicons/react/20/solid';
+import Link from 'next/link'
 
 const aboutus = [
   { name: "What's Enactus UBC?", href: '/about' },
