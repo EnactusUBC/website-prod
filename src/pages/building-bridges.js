@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 {/* All need to change */}
-import bannerPath from "../images/building-bridges/Frame 6.png"
+import bannerPath from "../images/building-bridges/banner.png"
 import logoPath from "../images/building-bridges/BB-LOGO-W.png"
 import squarePhoto from "../images/building-bridges/bb-square.png"
 import longPhoto from "../images/building-bridges/bb-long.jpg"
