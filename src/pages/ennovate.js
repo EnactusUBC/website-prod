@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 import bannerPath from "../images/ennovate/ennovate-banner.png"
 import logoPath from "../images/ENNOVATE-W.png"
 import squarePhoto from "../images/ennovate/ennovate-square.png"
-import longPhoto from "../images/ennovate/ennovate-L.jpg"
+import longPhoto from "../images/ennovate/ennovate-L.JPG"
 import PD1 from "../images/ennovate/Arisha.jpg"
 import PD2 from "../images/ennovate/Khushi.png"
 

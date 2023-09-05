@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import bbImg from "../images/building-bridges/BB-LOGO-W.png"
 import ennovateImg from "../images/ENNOVATE-W.png"
 import enspireImg from "../images/enspire/enspireLongLogo.png"
-import patchImg from "../images/patch/patch-logo.png"
+import patchImg from "../images/patch/Patch-logo.png"
 import seederImg from "../../public/projectlogos/seederwhite.png"
 
 // import seederImg from "../images/seeder/seeder-logo.png"
