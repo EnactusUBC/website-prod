@@ -47,7 +47,7 @@ function JoinUsPage() {
             <div className="flex flex-col items-center justify-items-center mt-2 lg:mt-8 gap-2">
                 <h1 className="text-black text-md lg:text-2xl font-bold">Check back soon for our hiring package!</h1>
                 <img src="/assets/enactus_inwork.gif" alt="Enactus UBC working gif" className="w-24 object-cover -translate-y-3" />
-                <h1 className="text-black text-xs lg:text-lg  font-regular">Follow <a className="underline" href="https://www.instagram.com/enactusubc/">@enactusubc</a> to be the first to know about the latest  hiring opportunities!</h1>
+                <h1 className="text-black text-xs lg:text-lg  font-regular">Follow <a className="underline" href="https://www.instagram.com/enactusubc/">@enactusubc</a> to be the first to know about the latest hiring opportunities!</h1>
             </div>
         </article>
 
@@ -79,7 +79,7 @@ function JoinUsPage() {
                     <h2 className='font-regular text-xs lg:text-md md:text-right'>Enactus has been foundational in establishing my social networks at UBC while providing me opportunities to work on projects to give back to the community.</h2>
                     <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Amanda Sam</h2>
 
-                    <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right' > If you're looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you&apos;ve come to the perfect place</h2>
+                    <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right' > If you&apos;re looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you&apos;ve come to the perfect place</h2>
                     <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Daniel Dian</h2>
 
                     <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right'> After spending 3 years in Enactus I can safely say that it is one of the highlights in my university experience.</h2>
