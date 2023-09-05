@@ -6,6 +6,7 @@ import Head from 'next/head';
 import SpinCarousel from "@/components/spincarousel";
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import Link from 'next/link'
 
 
 const inter = Inter({ subsets: ['latin'] });
@@ -48,21 +49,21 @@ export default function Home() {
         <img src='/indeximages/linetop.png' className="pt-8 w-full"></img>
         <h3 className="text-3xl md:text-5xl font-bold text-midgrey ml-6 lg:ml-24 mt-8 "><span className="text-enactusyellow">En</span >trepreneurial • <span className="text-enactusyellow">Act</span>ion • <span className="text-enactusyellow">Us</span></h3>
         <div className="mt-16 mb-28 flex flex-col items-center lg:justify-evenly lg:items-stretch lg:flex-row">
-          <a href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full mx-4 my-10">
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full mx-4 my-10">
             <img src="/indeximages/mountainico.png" className="w-24 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Mission</h4>
             <p className='text-sm lg:text-xl text-center px-6'>To make measurable improvements in the community through the use of entrepreneurship while helping UBC students become socially responsible business leaders.</p>
-          </div></a>
-          <a href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
+          </div></Link>
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/lightico.png" className="w-12 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Vision</h4>
             <p className='text-sm lg:text-xl text-center px-6'>To improve the community through increased opportunity, economic equality and social responsibility.</p>
-          </div></a>
-          <a href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
+          </div></Link>
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/paperico.png" className="w-20 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Story</h4>
             <p className='text-sm lg:text-xl text-center px-6'>Curiosity. <br></br>Courage. <br></br>Change.</p>
-          </div></a>
+          </div></Link>
           
         </div>
         <img src='/indeximages/linebottom.png' className="pt-8 mb-8 w-full"></img>

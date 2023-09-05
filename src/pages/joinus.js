@@ -38,7 +38,7 @@ function JoinUsPage() {
 
             <div className="absolute left-1/2 md:-ml-56 -ml-36 lg:-ml-80 top-1/4 flex flex-col items-center justify-items-center">
                 <h1 className="text-enactus-yellow text-2xl lg:text-5xl font-bold">Come Join Enactus!</h1>
-                <h1 className="text-white text-xs md:text-xl lg:text-3xl font-semibold">We'll be hiring for positions in September, 2023</h1>
+                <h1 className="text-white text-xs md:text-xl lg:text-3xl font-semibold">We&apos;ll be hiring for positions in September, 2023</h1>
             </div>
         </div>
         
@@ -79,7 +79,7 @@ function JoinUsPage() {
                     <h2 className='font-regular text-xs lg:text-md md:text-right'>Enactus has been foundational in establishing my social networks at UBC while providing me opportunities to work on projects to give back to the community.</h2>
                     <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Amanda Sam</h2>
 
-                    <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right' > If you're looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you’ve come to the perfect place</h2>
+                    <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right' > If you're looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you&apos;ve come to the perfect place</h2>
                     <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Daniel Dian</h2>
 
                     <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right'> After spending 3 years in Enactus I can safely say that it is one of the highlights in my university experience.</h2>

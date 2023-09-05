@@ -132,7 +132,7 @@ const SpinCarousel = (props) => {
         <div className="spin__dots">
         <PrevButton onClick={spinPrev} disabled={prevBtnDisabled} />
           {scrollSnaps.map((_, index) => (
-            <div className='flex items-center'>
+            <div key={index} className='flex items-center'>
             <DotButton
               key={index}
               onClick={() => {spinWheel(index); onDotButtonClick(index); }}

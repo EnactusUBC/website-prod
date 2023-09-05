@@ -43,7 +43,7 @@ export default function About() {
                     <h2 className='text-3xl xl:text-5xl font-bold my-8 xl:my-16'>Our Story</h2>
                     <p className='text-base xl:text-xl 3xl:text-2xl'>Enactus is a global platform for student-driven community improvement through entrepreneurship. With teams in 33 countries and over 72,000 students, we impact over 13 million lives worldwide. At Enactus UBC, we empower socially responsible business leaders to spark change. Enactus UBC was first established in 2001 as ACE (Advancing Canadian Entrepreneurship).
                     <br/><br/>
-                    Join our team of over 150 members as we tackle pressing social issues through our projects, and compete at the Enactus Canada Regional and National Expositions. Together, let's make a difference in the Vancouver community.
+                    Join our team of over 150 members as we tackle pressing social issues through our projects, and compete at the Enactus Canada Regional and National Expositions. Together, let&apos;s make a difference in the Vancouver community.
                     </p>
                 </div>
             </div>

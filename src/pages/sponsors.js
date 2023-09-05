@@ -104,7 +104,7 @@ export default function SponsorsPage() {
 
       <div className="w-full flex flex-col items-center">
         <h1 className=" text-lg md:text-3xl font-semibold font-[#1E1E1E] mt-8">Interested in becoming a sponsor?</h1>
-        <p className="text-sm md:text-lg w-11/12 md:w-7/12 text-center mt-6">Ready to sponsor Enactus UBC and embark on an exciting journey? Simply e-mail us below, and we'll send you a comprehensive sponsorship package to your inbox. Let's make magic happen together!</p>
+        <p className="text-sm md:text-lg w-11/12 md:w-7/12 text-center mt-6">Ready to sponsor Enactus UBC and embark on an exciting journey? Simply e-mail us below, and we&apos;ll send you a comprehensive sponsorship package to your inbox. Let&apos;s make magic happen together!</p>
         <div className="flex">
           <div className='flex flex-col items-center my-12 w-40 md:w-64 mx-0'>
               <img src='/executives/Ryan Lee_VP Finance & External.jpg' className='rounded-full w-24 md:w-40'></img>

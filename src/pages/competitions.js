@@ -26,7 +26,7 @@ export default function CompetitionPage() {
               Annually, our team represents UBC by competing in the Enactus Canada
               Regional and National Expositions. These expositions aim to bring
               together student, academic and industry leaders to celebrate the
-              achievements of Canada's future leaders and entrepreneurs. The impact
+              achievements of Canada&apos;s future leaders and entrepreneurs. The impact
               that each school creates through entrepreneurial initiatives is
               exhibited through a business presentation format in a variety of
               categories. This year, the Enactus Western Canada Regional Exposition
