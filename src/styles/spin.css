@@ -276,7 +276,7 @@
 
   @media screen and (min-width: 1744px) {
     .spin {
-      --slide-height: 68rem;
+      --slide-height: 64rem;
       --slide-spacing: 2rem;
       padding: 4rem 0 12rem 0;
     }
