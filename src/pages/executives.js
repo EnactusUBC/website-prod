@@ -66,7 +66,7 @@ export default function Executives() {
                         <h6 className='font-bold'>Kevin Gu</h6>
                         <p>VP Technology</p>
                     </div>
-                    <div className='flex flex-col items-center my-12 w-64 mx-4'>
+                    {/* <div className='flex flex-col items-center my-12 w-64 mx-4'>
                         <img src='/executives/Toushaar Sharma_VP Project Development.JPG' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Toushaar Sharma</h6>
                         <p>VP Project Development</p>
@@ -75,7 +75,7 @@ export default function Executives() {
                         <img src='/executives/Aditya Goel_VP Project Development.jpg' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Aditya Goel</h6>
                         <p>VP Project Development</p>
-                    </div>
+                    </div> */}
                     <div className='flex flex-col items-center my-12 w-64 mx-4'>
                         <img src='/executives/Arisha Ahmed_PD Ennovate.jpg' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Arisha Ahmed</h6>
@@ -106,7 +106,7 @@ export default function Executives() {
                         <h6 className='font-bold'>Jasleen Khakh</h6>
                         <p>Project Director Seeder</p>
                     </div>
-                    <div className='flex flex-col items-center my-12 w-64 mx-4'>
+                    {/* <div className='flex flex-col items-center my-12 w-64 mx-4'>
                         <img src='/executives/Cynthia Chang_PD Patch.jpg' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Cynthia Chang</h6>
                         <p>Project Director Patch</p>
@@ -115,7 +115,7 @@ export default function Executives() {
                         <img src='/executives/Annette Chan_PD Patch.jpg' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Annette Chan</h6>
                         <p>Project Director Patch</p>
-                    </div>
+                    </div> */}
                     <div className='flex flex-col items-center my-12 w-64 mx-4'>
                         <img src='/executives/Ghita Aqallal_PD Building Bridges.jpg' className='rounded-full w-40'></img>
                         <h6 className='font-bold'>Ghita Aqallal</h6>
