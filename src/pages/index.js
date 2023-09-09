@@ -61,7 +61,7 @@ export default function Home() {
           </div></Link>
           <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/paperico.png" className="w-20 mb-4"></img>
-            <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Story</h4>
+            <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Values</h4>
             <p className='text-sm lg:text-xl text-center px-6'>Curiosity. <br></br>Courage. <br></br>Change.</p>
           </div></Link>
           
