@@ -38,16 +38,21 @@ function JoinUsPage() {
 
             <div className="absolute left-1/2 md:-ml-56 -ml-36 lg:-ml-80 top-1/4 flex flex-col items-center justify-items-center">
                 <h1 className="text-enactus-yellow text-2xl lg:text-5xl font-bold">Come Join Enactus!</h1>
-                <h1 className="text-white text-xs md:text-xl lg:text-3xl font-semibold">We&apos;ll be hiring for positions in September, 2023</h1>
+                <h1 className="text-white text-xs md:text-xl lg:text-3xl font-semibold">The link below has everything you need :)</h1>
             </div>
         </div>
         
         {/* Check back soon area + Follow @enactus UBC */}
         <article>
             <div className="flex flex-col items-center justify-items-center mt-2 lg:mt-8 gap-2">
-                <h1 className="text-black text-md lg:text-2xl font-bold">Check back soon for our hiring package!</h1>
+                <h1 className="text-black text-md lg:text-2xl font-bold"></h1>
                 <img src="/assets/enactus_inwork.gif" alt="Enactus UBC working gif" className="w-24 object-cover -translate-y-3" />
-                <h1 className="text-black text-xs lg:text-lg  font-regular">Follow <a className="underline" href="https://www.instagram.com/enactusubc/">@enactusubc</a> to be the first to know about the latest hiring opportunities!</h1>
+                <a href="https://linktr.ee/enactusUBC/" target="_blank">
+                    <button class="button bg-transparent border-enactus-yellow text-enactus-yellow border-2 cursor-pointer transition duration-300 ease-in-out rounded-3xl hover:bg-enactus-yellow hover:text-white hover:border-white font-light" style={{ padding: "30px 80px", fontSize: "20px" }}>
+          Hiring Links
+                </button>
+                </a>
+                {/* <h1 className="text-black text-xs lg:text-lg  font-regular">Follow <a className="underline" href="https://www.instagram.com/enactusubc/">@enactusubc</a> to be the first to know about the latest hiring opportunities!</h1> */}
             </div>
         </article>
 
