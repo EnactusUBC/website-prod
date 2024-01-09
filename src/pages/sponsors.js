@@ -127,9 +127,33 @@ export default function SponsorsPage() {
         <h1 className=" text-lg lg:text-2xl font-semibold font-[#1E1E1E]">Enactus UBC is proudly affiliated with</h1>
 
         <div className="flex flex-wrap justify-center items-center gap-12 lg:gap-16 mt-8 overflow-x-hidden w-9/12">
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/rbc.png" alt="RBC Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/cus.png" alt="CUS Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/cpa.png" alt="CPA Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/3M.png" alt="3M Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Evo.png" alt="Evo Logo" width={200} height={80} />
+        {/* <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/mosa_logo.png" alt="Mosa Logo" width={200} height={80} /> */}
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/guru.png" alt="Guru Energy Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/bakd.png" alt="Bakd Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/wizeprep.png" alt="Wizeprep Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/nnect.png" alt="NNECT Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/rainorshine.png" alt="Rain or Shine Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/steve.png" alt="Steves Poke Bowl Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Modo.png" alt="Modo Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vancouver_water_adventures.png" alt="Vancouver Water Adventures Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/tea_dot.png" alt="Tea Dot Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/hinbor.png" alt="Hinbor Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/tochi.png" alt="Tochi Desserts Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/loafe.png" alt="Loafe Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/koerners.png" alt="Koerner's Pub Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/gyu.png" alt="Gyu-kaku Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/purdys.png" alt="Purdy's Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/starbucks.png" alt="Starbucks Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/greendale.png" alt="Greendale Acres Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/commercecommunity.png" alt="Commerce Community Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/foodhub.png" alt="Food Hub Market Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vancitywesbrook.png" alt="Vancity (Wesbrook) Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vanfoodstash.png" alt="Vancouver Food Stash Logo" width={200} height={80} />
+
+        {/* <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/3M.png" alt="3M Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ArtByKate.png" alt="ArtByKate Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ubc.png" alt="UBC Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ASMFood.png" alt="ASMFood Logo" width={200} height={80} />
@@ -137,10 +161,9 @@ export default function SponsorsPage() {
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ChunFunHow.png" alt="ChunFunHow Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/DavidsTea.png" alt="DavidsTea Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/DavidSuzuki.png" alt="DavidSuzuki Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Evo.png" alt="Evo Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/groundsForCoffee.png" alt="groundsForCoffee Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/LeagueOfInnovators.png" alt="LeagueOfInnovators Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Modo.png" alt="Modo Logo" width={200} height={80} />
+       
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/NaturesPath.png" alt="NaturesPath Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/OldSpaghettiFactory.png" alt="OldSpaghettiFactory Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/PennyDrops.png" alt="PennyDrops Logo" width={200} height={80} />
@@ -152,7 +175,35 @@ export default function SponsorsPage() {
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/TDBank.png" alt="TDBanks Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/UBCFoodBank.png" alt="UBCFoodBank Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/VeganSupply.png" alt="VeganSupply Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/WalterGage.png" alt="WalterGage Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/WalterGage.png" alt="WalterGage Logo" width={200} height={80} /> */}
+
+        {/* New ones: 
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/cus_logo.png" alt="CUS Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/cpabc_logo.png" alt="CPABC Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/evo_logo.png" alt="Evo Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/mosa_logo.png" alt="Mosa Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/guru_energy_logo.png" alt="Guru Energy Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/bakd_logo.png" alt="Bak’d Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/wizeprep_logo.png" alt="Wizeprep Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/nnect_logo.png" alt="NNECT Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/rain_or_shine_logo.png" alt="Rain or Shine Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/steves_poke_bowl_logo.png" alt="Steve’s Poke Bowl Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/modo_yoga_logo.png" alt="Modo Yoga Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/vancouver_water_adventures_logo.png" alt="Vancouver Water Adventures Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/tea_dot_logo.png" alt="Tea Dot Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/hinbor_logo.png" alt="Hinbor Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/tochi_desserts_logo.png" alt="Tochi Desserts Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/loafe_logo.png" alt="Loafe Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/koerners_pub_logo.png" alt="Koerner’s Pub Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/gyu-kaku_logo.png" alt="Gyu-kaku Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/purdys_logo.png" alt="Purdy’s Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/starbucks_logo.png" alt="Starbucks Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/greendale_acres_logo.png" alt="Greendale Acres Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/commerce_community_logo.png" alt="Commerce Community Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/food_hub_market_logo.png" alt="Food Hub Market Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/vancity_wesbrook_logo.png" alt="Vancity (Wesbrook) Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/vancouver_food_stash_logo.png" alt="Vancouver Food Stash Logo" width={200} height={80} />
+        */}
         </div>
       </div>
       <Footer />
