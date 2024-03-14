@@ -70,7 +70,7 @@ export default function SponsorsPage() {
             </div>
             <div className=' h-3/5 rounded-xl w-auto bg-[#FFD966]'>
               <h2 className='ml-2 pt-2 font-semibold text-lg md:text-2xl md:mx-4'>500+</h2>
-              <p className="ml-2  mt-2 pb-2 text-xs md:text-lg md:mx-4">students at Ennovate and Enspire flagship events</p>
+              <p className="ml-2  mt-2 pb-2 text-xs md:text-lg md:mx-4">students at our Ennovate and Enspire flagship events</p>
             </div>
           </div>
 
