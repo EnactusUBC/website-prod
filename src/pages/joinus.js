@@ -82,13 +82,13 @@ function JoinUsPage() {
                 {/* Quotes next to Carousel */}
                 <div className="flex-col flex md:w-7/12 mt-5 md:mt-0 md:h-[250px] lg:h-[300px] gap-auto pb-5 justify-center items-center md:items-end">
                     <h2 className='font-regular text-xs lg:text-md md:text-right'>Enactus has been foundational in establishing my social networks at UBC while providing me opportunities to work on projects to give back to the community.</h2>
-                    <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Amanda Sam</h2>
+                    <h2 className='font-medium text-sm lg:text-md md:text-right'>— Amanda Sam</h2>
 
                     <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right' > If you&apos;re looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you&apos;ve come to the perfect place</h2>
-                    <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Daniel Dian</h2>
+                    <h2 className='font-medium text-sm lg:text-md md:text-right'>— Daniel Dian</h2>
 
                     <h2 className='font-regular text-xs lg:text-md mt-3 md:text-right'> After spending 3 years in Enactus I can safely say that it is one of the highlights in my university experience.</h2>
-                    <h2 className='font-medium text-sm lg:text-md md:text-right'>-- Tiffany Chang</h2>
+                    <h2 className='font-medium text-sm lg:text-md md:text-right'>— Tiffany Chang</h2>
                 </div>
             </div>
 

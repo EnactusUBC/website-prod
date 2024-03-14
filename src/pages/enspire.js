@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* ABOUT US SECTION */}
       <div id="about-us" class="flex flex-col lg:flex-row items-center">
-        <div id="about-us-text" className="p-16 lg:p-8 m-8 lg:p-32 lg:p-32 lg:max-w-[55%]">
+        <div id="about-us-text" className="p-16 lg:p-8 m-8 lg:max-w-[55%]">
           <p class="my-7 text-xl lg:text-2xl font-bold">About Us</p>
           <p class="my-7 text-xl lg:text-2xl font-light"> {/* CHANGE */}
           Enspire endeavours to spark creativity, inspire passion, and foster global awareness by introducing Grade 6-7 students to social entrepreneurship. Throughout the program, students will learn about business fundamentals through interactive workshops, each with a digital workshop, live session, and learning challenge that students can submit for feedback with the chance to win monthly prizes. At the end of the program, students will have the opportunity to come participate in a full day event hosted at UBC, Enspire Day, where students will apply what they have learned over the year with our program through various group activities and presentations.

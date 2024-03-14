@@ -135,7 +135,7 @@ export default function SponsorsPage() {
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/bakd.png" alt="Bakd Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/wizeprep.png" alt="Wizeprep Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/nnect.png" alt="NNECT Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/rainorshine.png" alt="Rain or Shine Logo" width={200} height={80} />
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/rainorshinelogo2.png" alt="Rain or Shine Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/steve.png" alt="Steves Poke Bowl Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Modo.png" alt="Modo Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vancouver_water_adventures.png" alt="Vancouver Water Adventures Logo" width={200} height={80} />

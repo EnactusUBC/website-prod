@@ -56,7 +56,7 @@ export default function Home() {
 
       {/* ABOUT US SECTION */}
       <div id="about-us" class="flex flex-col lg:flex-row items-center">
-        <div id="about-us-text" className="p-16 lg:p-8 m-8 lg:p-32 lg:p-32 lg:max-w-[55%]">
+        <div id="about-us-text" className="p-16 lg:p-8 m-8 lg:max-w-[55%]">
           <p class="my-7 text-xl lg:text-2xl font-bold">About Us</p>
           <p class="my-7 text-xl lg:text-2xl font-light"> {/* CHANGE */}
           Ennovate is Enactus UBC’s largest project that aims to empower over 500 youth annually across the Lower Mainland, giving them a hands-on experience in social entrepreneurship. Each year, countless schools come together to receive a series of workshops from our Project Associates teaching them fundamental business skills such as marketing, accounting, and presentation skills. 
