@@ -7,7 +7,7 @@ export default function About() {
         <Header></Header>
         <main className='flex flex-col w-full overflow-x-hidden bg-[#fbfcfd] text-dark'>
             <div className='bg-about bg-cover w-screen min-h-screen mt-20'>
-                <h2 className='text-4xl xl:text-5xl sm:mt-16 xl:mt-24 3xl:mt-56 mb-12 ml-12 lg:mx-20 xl:ml-32 w-3/5'><span className='text-enactusyellow font-bold'>Enactus</span> <span className='font-bold'>strives to</span> empower communities through entrepreneurship! </h2>
+                <h2 className='text-4xl xl:text-5xl sm:mt-16 xl:mt-24 3xl:mt-56 mb-12 ml-12 lg:mx-20 xl:ml-32 w-3/5'><span className='text-enactusyellow font-bold'>Enactus UBC</span> <span className='font-bold'>strives to</span> empower communities through entrepreneurship! </h2>
                 <h3 className='text-lg xl:text-4xl xl:mb-80 3xl:mb-96 ml-12 lg:mx-20 xl:ml-32 w-5/6 xl:w-1/2'>We fuel opportunity, drive equality, and embrace social responsibility, creating measurable improvements for our communities. </h3>
                 <div>
                     <h2 className='text-3xl xl:text-5xl font-bold text-white ml-4 sm:ml-20 xl:ml-32 3xl:mx-80 mb-8 xl:mb-16 3xl:mb-24 xl:pt-6 pt-32 sm:pt-48'>Our Core Values</h2>

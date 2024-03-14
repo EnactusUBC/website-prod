@@ -17,7 +17,7 @@ export default function CompetitionPage() {
         <Header />
         <div className="ml-8 lg:ml-24 mt-8 lg:mt-20">
           <h1 className=" mb-4 lg:mb-10 mt-10 color-black text-2xl lg:text-4xl font-bold">
-            Something you should know is that <br /> Enactus{" "}
+            Something you should know is that <br /> Enactus UBC{" "}
             <span style={{ color: "#FFC220" }}>WINS.</span>
           </h1>
           <div className="flex md:flex-row gap-8 lg:gap-36">
