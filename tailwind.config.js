@@ -52,6 +52,7 @@ module.exports = {
       },
       screens: {
         '3xl': '1744px',
+        '500': '500px',
       },
     },
     },

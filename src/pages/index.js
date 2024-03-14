@@ -36,6 +36,7 @@ export default function Home() {
     <>
     <Head>
       <title>Enactus UBC</title>
+      <meta name="description" content="Enactus strives to empower communities through entrepreneurship! We fuel opportunity, drive equality, and embrace social responsibility, creating measurable improvements for our communities"></meta>
     </Head>
     {/* for transparent nav bar
     <nav className={nav ? bg-enactusblue : bg-transparent}></nav> */}
@@ -78,7 +79,7 @@ export default function Home() {
       </section>
 
       <section className="bg-gradient-to-b from-offwhite to-enactusblue">
-        <h1 className="text-enactusblue text-5xl lg:text-7xl 2xl:text-8xl font-bold text-right relative 2xl:top-36 lg:top-16 right-4 2xl:right-24">PROJECTS</h1>
+        <h1 className="text-enactusblue text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold text-left relative 2xl:top-24 lg:top-16 left-8 lg:left-64 2xl:left-80">PROJECTS</h1>
         <SpinCarousel slides={SPINSLIDES} options={OPTIONS}></SpinCarousel>
         {/* <div className="flex flex-col justify-between xl:h-288 relative left-3/4 bottom-96 xl:bottom-65vh invisible lg:visible">
           <p className="xl:text-2xl font-semibold text-dark h-9">Ennovate</p>

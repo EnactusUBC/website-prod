@@ -16,8 +16,8 @@ export default function CompetitionPage() {
       <main className="overflow-x-hidden">
         <Header />
         <div className="ml-8 lg:ml-24 mt-8 lg:mt-20">
-          <h1 className=" mb-4 lg:mb-10 mt-10 color-black text-2xl lg:text-4xl font-bold">
-            Something you should know is that <br /> Enactus{" "}
+          <h1 className="mb-4 lg:mb-10 mt-10 color-black text-2xl lg:text-4xl font-bold">
+            Something you should know is that <br className='hidden 500:block'/> Enactus{" "}
             <span style={{ color: "#FFC220" }}>WINS.</span>
           </h1>
           <div className="flex md:flex-row gap-8 lg:gap-36">
