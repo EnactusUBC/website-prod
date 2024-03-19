@@ -29,8 +29,7 @@ export default function CompetitionPage() {
               that each school creates through entrepreneurial initiatives is
               exhibited through a business presentation format in a variety of
               categories. This year, the Enactus Western Canada Regional Exposition
-              was held in Calgary, and the Enactus Canada National Exposition was
-              held in Montreal.
+              was held in Calgary, and the Enactus Canada National Exposition will be held in Toronto.
             </p1>
 
             {/* <Image className='hidden sm:block w-52 md:w-64 lg:w-96 mr-8 mb-5 object-contain' src="/assets/enactusComp.jpg" alt="Image of Enactus Competition" width={500} height={500} objectFit="cover"></Image> */}
