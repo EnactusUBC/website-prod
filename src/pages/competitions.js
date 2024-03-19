@@ -46,8 +46,25 @@ export default function CompetitionPage() {
 
 
           <div className="flex justify-items-center items-center flex-col w-full pb-16">
-
               <h3 className="text-white font-semibold text-xl lg:text-2xl lg:mb-10  lg:self-start ml-8 mr-8 lg:ml-24 ">
+                2024 Regionals
+              </h3>
+              {/* <Image className='w-40 mb-5 mt-3' src="/sponsors/HSBC.png" alt="HSBC Logo" width={500} height={500} objectFit="cover" /> */}
+
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              Desjardins Youth Empowerment Challenge - 1st Place
+              </h2>
+
+              <h2 className="text-white text-sm lg:text-2xl font-semibold">
+                TD Entrepreneurship Challenge - 3rd Place
+              </h2>
+
+              <h2 className="text-white text-sm lg:text-2xl font-semibold">
+                Canadian Tire Environmental Sustainability Challenge - 3rd Place
+              </h2>
+
+
+              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
                 2023 Nationals
               </h3>
               {/* <Image className='w-40 mb-5 mt-3' src="/sponsors/HSBC.png" alt="HSBC Logo" width={500} height={500} objectFit="cover" /> */}
