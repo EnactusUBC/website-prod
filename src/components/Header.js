@@ -7,6 +7,7 @@ import {
   PlayCircleIcon
 } from '@heroicons/react/20/solid';
 import Link from 'next/link'
+import Image from 'next/image'; 
 
 const aboutus = [
   { name: "What's Enactus UBC?", href: '/about' },
@@ -37,9 +38,15 @@ export default function Header() {
         aria-label='Global'
       >
         <div className='flex lg:flex-1'>
-          <Link href='/' className=''>
-            <img className='h-12 w-auto' src='/Logo.png' alt='' />
-          </Link>
+        <Link href='/' className=''>
+        <Image
+          className='h-12 w-auto'
+          src='/Logo.png'
+          alt='Enactus UBC Logo'
+          width={201}
+          height={130}
+          />
+        </Link>
         </div>
         <div className='flex lg:hidden'>
           <button
@@ -158,9 +165,15 @@ export default function Header() {
         <div className='fixed inset-0 z-10' />
         <Dialog.Panel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#29476D] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
           <div className='flex items-center justify-between'>
-            <a href='#' className='-m-1.5 p-1.5'>
-              <img className='h-12 w-auto' src='./Logo.png' alt='' />
-            </a>
+          <a href='#' className='-m-1.5 p-1.5'>
+            <Image
+              className='h-12 w-auto'
+              src='/Logo.png'
+              alt='Enactus UBC Logo'
+              width={201}
+              height={130}
+            />
+          </a>
             <button
               type='button'
               className='-m-2.5 rounded-md p-2.5 text-[#FBFCFD]'

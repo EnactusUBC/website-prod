@@ -16,7 +16,7 @@ function JoinUsPage() {
         { question: 'Do I need to be in Sauder to join?', answer: 'Definitely not! Everyone is welcome to join!', isHidden: true },
         { question: 'Why should we join Enactus?', answer: 'Join our welcoming community of likeminded people while making a positive impact on our community!', isHidden: true },
         { question: 'How can I get involved?', answer: 'Check out our hiring package that will be posted around September!.', isHidden: true }
-      ]);
+    ]);
 
     const carouselImages = [
         "/assets/joinUsImg1.png",
@@ -24,14 +24,14 @@ function JoinUsPage() {
         "/assets/joinUsCarousel3.png"
     ];
 
-    const prev = () => { 
+    const prev = () => {
         setCurrent(current === 0 ? carouselImages.length - 1 : current - 1);
     }
 
     const next = () => {
         setCurrent(current === carouselImages.length - 1 ? 0 : current + 1);
     }
-    
+
 
     return <main>
         <Header></Header>
@@ -45,7 +45,7 @@ function JoinUsPage() {
                 <h1 className="text-white text-xs md:text-xl lg:text-3xl font-semibold">The link below has everything you need :)</h1>
             </div>
         </div>
-        
+
         {/* Check back soon area + Follow @enactus UBC */}
         <article>
             <div className="flex flex-col items-center justify-items-center mt-2 lg:mt-8 gap-2">
@@ -53,8 +53,8 @@ function JoinUsPage() {
                 <img src="/assets/enactus_inwork.gif" alt="Enactus UBC working gif" className="w-24 object-cover -translate-y-3" />
                 <a href="https://linktr.ee/enactusUBC/" target="_blank">
                     <button class="button bg-transparent border-enactus-yellow text-enactus-yellow border-2 cursor-pointer transition duration-300 ease-in-out rounded-3xl hover:bg-enactus-yellow hover:text-white hover:border-white font-light" style={{ padding: "30px 80px", fontSize: "20px" }}>
-          Hiring Links
-                </button>
+                        Hiring Links
+                    </button>
                 </a>
                 {/* <h1 className="text-black text-xs lg:text-lg  font-regular">Follow <a className="underline" href="https://www.instagram.com/enactusubc/">@enactusubc</a> to be the first to know about the latest hiring opportunities!</h1> */}
             </div>
@@ -98,9 +98,9 @@ function JoinUsPage() {
                 <div className='flex flex-col items-center md:items-start md:w-1/2 p-6'>
                     <h2 className='text-3xl xl:text-5xl font-bold my-8 xl:my-16'>Why Enactus?</h2>
                     <p className='text-base xl:text-xl 3xl:text-2xl text-center md:text-left'>
-                    Joining Enactus is more than just becoming a member of a student organization, it's stepping into a community of driven, socially-conscious leaders who are passionate about making a difference within our community. At Enactus, you'll have the opportunity to connect and collaborate with like-minded individuals who share your desire to create positive social change.
+                        Joining Enactus is more than just becoming a member of a student organization, it&apos;s stepping into a community of driven, socially-conscious leaders who are passionate about making a difference within our community. At Enactus, you&apos;ll have the opportunity to connect and collaborate with like-minded individuals who share your desire to create positive social change.
                         <br /><br />
-                        Whether you’re participating in the annual Enactus National Competition or educating 6th and 7th graders about social entrepreneurship, you’ll have the chance to inspire and empower the next generation while making a meaningful impact. These experiences not only allow you to give back to the community but also help you forge valuable connections and become an integral part of the Enactus family.
+                        Whether you&rsquo;re participating in the annual Enactus National Competition or educating 6th and 7th graders about social entrepreneurship, you&apos;ll have the chance to inspire and empower the next generation while making a meaningful impact. These experiences not only allow you to give back to the community but also help you forge valuable connections and become an integral part of the Enactus family.
                     </p>
                 </div>
             </div>
@@ -142,7 +142,7 @@ function JoinUsPage() {
                                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
                                     <div className="flex-1">
                                         <blockquote className="flex-1 mt-8">
-                                            <p className="text-lg leading-relaxed text-gray-900 font-pj">If you're looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you've come to the perfect place.</p>
+                                            <p className="text-lg leading-relaxed text-gray-900 font-pj">If you&rsquo;re looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you've come to the perfect place.</p>
                                         </blockquote>
                                     </div>
 
@@ -185,24 +185,24 @@ function JoinUsPage() {
 
 
             {answers.map((item, index) => (
-        <div key={index} className={`flex justify-between mt-4 w-9/12 justify-items-center items-center bg-[#29476D] rounded-md ${item.isHidden ? 'h-[50px]' : 'h-[120px]'}`} onClick={() => {
-          const newAnswers = [...answers];
-          newAnswers[index].isHidden = !newAnswers[index].isHidden;
-          setAnswers(newAnswers);
-        }}>
+                <div key={index} className={`flex justify-between mt-4 w-9/12 justify-items-center items-center bg-[#29476D] rounded-md ${item.isHidden ? 'h-[50px]' : 'h-[120px]'}`} onClick={() => {
+                    const newAnswers = [...answers];
+                    newAnswers[index].isHidden = !newAnswers[index].isHidden;
+                    setAnswers(newAnswers);
+                }}>
 
-          <div className="flex flex-col">
-            <h1 className="text-white text-sm lg:text-lg font-semibold ml-5">{item.question}</h1>
-            <h1 className={`text-white text-sm lg:text-md font-regular mt-3 ml-5 ${item.isHidden ? 'hidden' : ''}`}>{item.answer}</h1>
-          </div>
-          <button className='text-white mr-3'>
-            <ChevronDown></ChevronDown>
-          </button>
-        </div>
-      ))}
+                    <div className="flex flex-col">
+                        <h1 className="text-white text-sm lg:text-lg font-semibold ml-5">{item.question}</h1>
+                        <h1 className={`text-white text-sm lg:text-md font-regular mt-3 ml-5 ${item.isHidden ? 'hidden' : ''}`}>{item.answer}</h1>
+                    </div>
+                    <button className='text-white mr-3'>
+                        <ChevronDown></ChevronDown>
+                    </button>
+                </div>
+            ))}
         </div>
         <Footer></Footer>
-      
+
     </main>;
 
 
