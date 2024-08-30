@@ -142,7 +142,7 @@ function JoinUsPage() {
                                 <div className="flex flex-col justify-between flex-1 p-6 bg-white lg:py-8 lg:px-7">
                                     <div className="flex-1">
                                         <blockquote className="flex-1 mt-8">
-                                            <p className="text-lg leading-relaxed text-gray-900 font-pj">If you&rsquo;re looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you've come to the perfect place.</p>
+                                            <p className="text-lg leading-relaxed text-gray-900 font-pj">If you&rsquo;re looking for the place to make real, tangible impact in your communities while joining a vibrant community of amazingly talented people - you have come to the perfect place.</p>
                                         </blockquote>
                                     </div>
 
