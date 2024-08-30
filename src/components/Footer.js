@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import enactusLogo from '../images/enactusLogo.png';
+import enactusLogo from '../images/enactuslogo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
