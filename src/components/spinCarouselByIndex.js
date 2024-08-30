@@ -41,18 +41,5 @@ export default function CarouselByIndex({ index }) {
             
         );
     }
-    if (index == 3) {
-        return (
-            <div className='bg-offwhite w-11/12 lg:w-6/12 rounded-2xl flex flex-col items-center border-dark border-4 h-full 2xl:h-0.8 shadow-solid 3xl:h-full'>
-            <Link href='/building-bridges'>
-            <div className="flex flex-col items-center">
-                <img src='/projectlogos/buildingbridges.png' className="pt-12 w-96 px-20"></img>
-                {/* <h1 className="text-8xl font-bold pt-20 px-20">Building Bridges</h1> */}
-                <h3 className="text-xs sm:text-sm md:text-base xl:text-lg 2xl:text-xl 3xl:px-28 text-dark font-bold pt-8 pb-16 px-8 xl:px-16 xl:leading-6 3xl:leading-9">Founded in 2022 and launched in 2023, Building Bridges aims to bridge the knowledge gap in today’s academic curriculum about Indigenous history and mobilize non-Indigenous youth to take action through social entrepreneurship. Through interactive workshops, modules and a final conference, we educate on topics such as the history of settler colonialism, Indigenous history, and Indigenous rights. Currently, we are preparing to formally launch our program in high schools this upcoming September.</h3>
-                </div>
-                </Link>
-            </div> 
-        );
-    }
     
 }

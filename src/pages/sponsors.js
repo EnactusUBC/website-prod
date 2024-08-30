@@ -33,11 +33,6 @@ export default function SponsorsPage() {
               className="mx-auto -mr-4 md:-mr-2 md:ml-6 w-[100px] h-[100px] md:w-[240px] md:h-[140px] object-contain"
             />
 
-            <Image
-              src={bbImg}
-              alt="Building Bridges Logo"
-              className="mx-auto -mr-4 w-[100px] h-[100px] md:w-[140px] md:h-[140px] object-contain"
-            />
             </div>
 
             <div className="flex md:-mt-7 items-center justify-center">

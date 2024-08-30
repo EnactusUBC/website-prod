@@ -34,9 +34,6 @@ const SpinCarousel = (props) => {
     if(index == 2) {
       return "Seeder";
     }
-    if(index == 3) {
-      return "Building Bridges";
-    }
   }
 
   const spinPrev = () => {
@@ -59,9 +56,6 @@ const SpinCarousel = (props) => {
     if (index === 2){
       document.getElementById('circle').className = 'spin_circle_two';
     }
-    if (index === 3){
-      document.getElementById('circle').className = 'spin_circle_three';
-    }
 
     setGlobalIndex(index);
 
@@ -78,15 +72,6 @@ const SpinCarousel = (props) => {
     if (globalIndex === 2){
       document.getElementById('circle').className = 'spin_circle_three';
     }
-    if (globalIndex === 3){
-      document.getElementById('circle').className = 'spin_circle';
-    }
-
-    if (globalIndex === 3) {
-      setGlobalIndex(0);
-    } else {
-      setGlobalIndex(globalIndex + 1);
-    }
 
   }, [globalIndex]);
 
@@ -100,12 +85,9 @@ const SpinCarousel = (props) => {
     if (globalIndex === 2){
       document.getElementById('circle').className = 'spin_circle_one';
     }
-    if (globalIndex === 3){
-      document.getElementById('circle').className = 'spin_circle_two';
-    }
 
     if (globalIndex === 0) {
-      setGlobalIndex(3);
+      setGlobalIndex(2);
     } else {
       setGlobalIndex(globalIndex - 1);
     }

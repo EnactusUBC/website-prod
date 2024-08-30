@@ -17,7 +17,6 @@ const projects = [
   { name: 'Ennovate', href: '/ennovate' },
   { name: 'Enspire', href: '/enspire' },
   { name: 'Seeder', href: '/seeder' },
-  { name: 'Building Bridges', href: '/building-bridges' }
 ];
 const joinourteam = [
   { name: 'Join Our Team', href: 'joinus' },
