@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const HEROSLIDES = [0, 1, 2];
-  const SPINSLIDES = [0, 1, 2, 3];
+  const SPINSLIDES = [0, 1, 2];
   const OPTIONS = { axis: 'y', loop: true, watchDrag: false }
   // NAVBAR FUNCTION have transparent navbar on load, but change when scroll
   const [nav, setNav] = useState(false);
@@ -50,17 +50,17 @@ export default function Home() {
         <img src='/indeximages/linetop.png' className="pt-8 w-full"></img>
         <h3 className="text-3xl md:text-5xl font-bold text-midgrey ml-6 lg:ml-24 mt-8 "><span className="text-enactusyellow">En</span >trepreneurial • <span className="text-enactusyellow">Act</span>ion • <span className="text-enactusyellow">Us</span></h3>
         <div className="mt-16 mb-28 flex flex-col items-center lg:justify-evenly lg:items-stretch lg:flex-row">
-          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full mx-4 my-10">
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full mx-4 my-10">
             <img src="/indeximages/mountainico.png" className="w-24 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Mission</h4>
             <p className='text-sm lg:text-xl text-center px-6'>To make measurable improvements in the community through the use of entrepreneurship while helping UBC students become socially responsible business leaders.</p>
           </div></Link>
-          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/lightico.png" className="w-12 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Vision</h4>
             <p className='text-sm lg:text-xl text-center px-6'>To improve the community through increased opportunity, economic equality and social responsibility.</p>
           </div></Link>
-          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
+          <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/paperico.png" className="w-20 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Values</h4>
             <p className='text-sm lg:text-xl text-center px-6'>We stand by three core values of curiosity, courage, and change!</p>
@@ -79,8 +79,11 @@ export default function Home() {
       </section>
 
       <section className="bg-gradient-to-b from-offwhite to-enactusblue">
-        <h1 className="text-enactusblue text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold text-left relative 2xl:top-24 lg:top-16 left-8 lg:left-64 2xl:left-80">PROJECTS</h1>
+        <h1 className="text-enactusblue text-5xl sm:text-6xl lg:text-7xl 2xl:text-8xl font-bold text-left relative 2xl:top-24 lg:top-16 left-8 lg:left-64 2xl:left-80 mb-16 lg:mb-32">
+          PROJECTS
+        </h1>
         <SpinCarousel slides={SPINSLIDES} options={OPTIONS}></SpinCarousel>
+        
         {/* <div className="flex flex-col justify-between xl:h-288 relative left-3/4 bottom-96 xl:bottom-65vh invisible lg:visible">
           <p className="xl:text-2xl font-semibold text-dark h-9">Ennovate</p>
           <p className="xl:text-2xl font-semibold text-dark h-9">Enspire</p>
