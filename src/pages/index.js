@@ -53,17 +53,17 @@ export default function Home() {
           <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full mx-4 my-10">
             <img src="/indeximages/mountainico.png" className="w-24 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Mission</h4>
-            <p className='text-sm lg:text-xl text-center px-6'>To make measurable improvements in the community through the use of entrepreneurship while helping UBC students become socially responsible business leaders.</p>
+            <p className='text-sm lg:text-base text-center px-2'>To make measurable improvements in the community through the use of entrepreneurship while helping UBC students become socially responsible business leaders.</p>
           </div></Link>
           <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/lightico.png" className="w-12 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Vision</h4>
-            <p className='text-sm lg:text-xl text-center px-6'>To improve the community through increased opportunity, economic equality and social responsibility.</p>
+            <p className='text-sm lg:text-lg text-center px-2'>To improve the community through increased opportunity, economic equality and social responsibility.</p>
           </div></Link>
           <Link href='/about'><div className="cursor-pointer shadow-all rounded-xl flex flex-col justify-start items-center py-8 w-72 sm:w-80 xl:w-0.25 xl:px-16 h-80 hover:scale-110 transition ease-in-out min-h-full lg:min-h-md mx-4 my-10">
             <img src="/indeximages/paperico.png" className="w-20 mb-4"></img>
             <h4 className="text-enactusblue font-bold text-lg lg:text-4xl mb-6">Values</h4>
-            <p className='text-sm lg:text-xl text-center px-6'>We stand by three core values of curiosity, courage, and change!</p>
+            <p className='text-sm lg:text-lg text-center px-2'>We stand by three core values of curiosity, courage, and change!</p>
           </div></Link>
           
         </div>
