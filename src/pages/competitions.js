@@ -90,7 +90,7 @@ export default function CompetitionPage() {
               HSBC Entrepreneurship Project Accelerator - 1st Place
               </h2>
 
-              <h2 className="text-white text-sm lg:text-2xl font-semibold">
+              <h2 className="text-white text-sm mt-3 lg:text-2xl font-semibold">
                 Top 20 Semi-Finalist Nationally
               </h2>
               
@@ -154,7 +154,7 @@ export default function CompetitionPage() {
               <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
                 Scotiabank Climate Change Challenge - 2nd Place
               </h2>
-              <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
+              <h2 className="text-white text-sm lg:text-2xl font-semibold">
                 TD Entrepreneurship Challenge - 2nd Place
               </h2>
 
