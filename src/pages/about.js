@@ -97,7 +97,7 @@ export default function About() {
                         <br /><br />
                         At Enactus UBC, we are committed to igniting social transformation and effecting tangible change in our community through the power of entrepreneurship. As socially responsible business leaders, we empower UBC students to make a positive difference. With a team of over 150 passionate members, we continuously expand our projects, amplify our impact, and conquer new frontiers. To showcase our accomplishments, we proudly represent UBC in the prestigious Enactus Canada Regional and National Expositions.
                         <br /><br />
-                        This year, Enactus UBC spearheads transformative endeavors in the Vancouver community through five distinctive projects: Ennovate, Enspire, Seeder and Patch. Each project is tailored to address a specific and urgent social challenge that we have identified within our community.
+                        This year, Enactus UBC spearheads transformative endeavors in the Vancouver community through five distinctive projects: Ennovate, Enspire, and Seeder. Each project is tailored to address a specific and urgent social challenge that we have identified within our community.
                     </p>
                 </div>
             </main>
