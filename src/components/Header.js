@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const aboutus = [
   { name: "What's Enactus UBC?", href: '/about' },
-  { name: 'Our Team', href: '/executives' },
+  // { name: 'Our Team', href: '/executives' },
   { name: 'Competitions', href: '/competitions' }
 ];
 const projects = [
