@@ -20,7 +20,7 @@ export default function SponsorsPage() {
         <div className="w-11/12 md:h-[300px] h-[400px] flex flex-col md:flex-row rounded-lg md:mt-4 lg:justify-center bg-enactusblue">
 
           <div className="flex flex-col md:w-5/12 w-full items-center md:items-start md:ml-6 justify-center ">
-            <h3 className='text-white mt-3 md:w-9/12 before:text-xl md:text-3xl md:break-before-all font-bold text-center md:text-left md:mb-3'>Why Partner with <span className='text-enactusyellow'>Enactus?</span></h3>
+            <h3 className='text-white mt-3 md:w-9/12 before:text-xl md:text-3xl md:break-before-all font-bold text-center md:text-left md:mb-3'>Why Partner with <span className='text-enactusyellow'>Enactus UBC?</span></h3>
             <p className="text-center w-10/12 text-white font-regular mt-3 md:text-left md:mb-3">By joining forces with Enactus UBC, you not only empower local students to make a positive impact on the community but also tap into a vibrant network of talented young individuals.</p>
           </div>
 
