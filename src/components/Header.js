@@ -15,8 +15,8 @@ const aboutus = [
   { name: 'Competitions', href: '/competitions' }
 ];
 const projects = [
-  { name: 'Ennovate', href: '/ennovate' },
-  { name: 'Enspire', href: '/enspire' },
+  { name: 'Ennovate', href: 'https://ennovateubc.org/' },
+  { name: 'Enspire', href: 'https://enspireprogram.com/' },
   { name: 'Seeder', href: '/seeder' },
 ];
 const joinourteam = [
@@ -114,6 +114,7 @@ export default function Header() {
                   <a
                     key={item.name}
                     href={item.href}
+                    target="_blank"
                     className='block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50'
                   >
                     {item.name}
