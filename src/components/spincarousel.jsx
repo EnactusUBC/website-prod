@@ -33,7 +33,7 @@ const SpinCarousel = (props) => {
       return "Enspire";
     }
     if (index == 2) {
-      return "Seeder";
+      return "Terra";
     }
   }
 
