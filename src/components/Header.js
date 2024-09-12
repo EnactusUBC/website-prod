@@ -17,10 +17,10 @@ const aboutus = [
 const projects = [
   { name: 'Ennovate', href: 'https://ennovateubc.org/' },
   { name: 'Enspire', href: 'https://enspireprogram.com/' },
-  { name: 'Terra', href: '/seeder' },
+  { name: 'Terra', href: '/terra' },
 ];
 const joinourteam = [
-  { name: 'Join Our Team', href: 'joinus' },
+  { name: 'Join Our Team', href: '/joinus' },
   { name: 'Sponsors', href: '/sponsors' }
 ];
 
