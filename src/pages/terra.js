@@ -146,10 +146,13 @@ export default function Home() {
     <main>
       <div className="flex flex-col min-h-screen">
         <Header />
-        <div className="flex-grow flex justify-center items-center">
-          <p className="text-center text-3xl">
+        <div className="flex-grow flex flex-col justify-center items-center">
+          <p className="text-center text-3xl py-4">
             Currently in progress! Stay tuned :)
           </p>
+          <p className="text-center text-md">
+            Check them out at <a target="_blank" href="https://www.instagram.com/terraubc/" className="font-bold">instagram.com/terraubc/</a>
+          </p>        
         </div>
         <Footer />
       </div>
