@@ -47,13 +47,13 @@ export default function CarouselByIndex({ index }) {
                 <Link href='/seeder'>
                     <div className="flex flex-col items-center">
                         <Image
-                            src='/projectlogos/seeder.png'
-                            alt='Seeder Logo'
-                            width={1216}
-                            height={280}
-                            className="pt-20 px-20 3xl:px-36"
+                            src='/projectlogos/terra.png'
+                            alt='Terra Logo'
+                            width={978}
+                            height={150}
+                            className="pt-5 px-5 3xl:px-24"
                         />
-                        <h3 className="text-xs sm:text-sm md:text-base xl:text-lg 2xl:text-xl 3xl:px-28 text-dark font-bold pt-8 pb-16 px-8 xl:px-16 xl:leading-6 3xl:leading-9">Seeder is an initiative that is dedicated to mitigating and diverting food waste in the Lower Mainland while tackling food insecurity. We facilitate the donation of excess food from organizations and food retailers to UBC distribution sites, where the food is given to students facing food insecurity. This year, we plan on further tackling the issue of food waste by expanding outside of UBC and helping food-insecure residents in the Lower Mainland. We are also planning innovative ways to use upcycled organics to empower organizations in the environmental sector and inspire students to create change in their communities.</h3>
+                        <h3 className="text-xs sm:text-sm md:text-base xl:text-lg 2xl:text-xl 3xl:px-28 text-dark font-bold pt-8 pb-16 px-8 xl:px-16 xl:leading-6 3xl:leading-9">Terra is a pro-bono consulting project dedicated to addressing food waste and insecurity across the Lower Mainland by upcycling and redistributing food waste and introducing sustainable business practices to local restaurants, food retailers, and farms. Through our comprehensive consulting services and partnerships with organizations like Food Stash and Second Harvest, we upcycle surplus food and redistribute it to those in need.</h3>
                     </div>
                 </Link>
             </div>
