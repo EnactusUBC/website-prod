@@ -99,8 +99,8 @@ export default function SponsorsPage() {
 
       <div className="w-full flex flex-col items-center">
         <h1 className=" text-lg md:text-3xl font-semibold font-[#1E1E1E] mt-8">Interested in becoming a sponsor?</h1>
-        <p className="text-sm md:text-lg w-11/12 md:w-7/12 text-center mt-6">Ready to sponsor Enactus UBC and embark on an exciting journey? Simply e-mail us below, and we&apos;ll send you a comprehensive sponsorship package to your inbox. Let&apos;s make magic happen together!</p>
-        <div className="flex">
+        <p className="text-sm md:text-lg pb-8 w-11/12 md:w-7/12 text-center mt-6">Ready to sponsor Enactus UBC and embark on an exciting journey? Simply e-mail us below, and we&apos;ll send you a comprehensive sponsorship package to your inbox. Let&apos;s make magic happen together!</p>
+        {/* <div className="flex">
           <div className='flex flex-col items-center my-12 w-40 md:w-64 mx-0'>
             <img src='/executives/Ryan Lee_VP Finance & External.jpg' className='rounded-full w-24 md:w-40'></img>
             <h6 className='font-bold'>Ryan Lee</h6>
@@ -111,9 +111,9 @@ export default function SponsorsPage() {
             <h6 className='font-bold'>Hanna Woo</h6>
             <p className='text-sm md:text-md'>VP Finance & External</p>
           </div>
-        </div>
+        </div> */}
         {/* TODO : Get proper email */}
-        <a href="mailto:enactusUBC" className="inline-block pt-2 w-[200px] h-[50px] rounded-xl bg-enactusblue text-white text-xl text-center align-middle leading-50px">Contact Us</a>
+        <a href="mailto:internal.enactusubc@gmail.com" className="inline-block pt-2 w-[200px] h-[50px] rounded-xl bg-enactusblue text-white text-xl text-center align-middle leading-50px">Contact Us</a>
       </div>
 
       <div class="border-t border-gray-300 my-16"></div>
