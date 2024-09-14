@@ -151,7 +151,7 @@ export default function Home() {
             Currently in progress! Stay tuned :)
           </p>
           <p className="text-center text-md">
-            Check them out at <a target="_blank" href="https://www.instagram.com/terraubc/" className="font-bold">instagram.com/terraubc/</a>
+          Keep up with them at <a target="_blank" href="https://www.instagram.com/terraubc/" className="font-bold">instagram.com/terraubc/</a>
           </p>        
         </div>
         <Footer />
