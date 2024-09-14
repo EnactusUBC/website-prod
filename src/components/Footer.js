@@ -59,8 +59,8 @@ export default function Footer() {
           <Image 
             src={enactusLogo} 
             alt='Enactus UBC Logo' 
-            width={75}
-            height={24}
+            width={50}
+            height={16}
             className='mx-auto' 
           />
         </div>
