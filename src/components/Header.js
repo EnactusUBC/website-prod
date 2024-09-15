@@ -15,7 +15,7 @@ const aboutus = [
   { name: 'Competitions', href: '/competitions' }
 ];
 const projects = [
-  { name: 'Ennovate', href: 'https://ennovateubc.org/' },
+  { name: 'Ennovate', href: 'https://ennovateubc.netlify.app/' },
   { name: 'Enspire', href: 'https://enspireprogram.com/' },
   { name: 'Terra', href: '/terra' },
 ];
