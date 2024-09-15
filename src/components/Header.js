@@ -16,7 +16,7 @@ const aboutus = [
 ];
 const projects = [
   { name: 'Ennovate', href: 'https://ennovateubc.netlify.app/' },
-  { name: 'Enspire', href: 'https://enspireprogram.com/' },
+  { name: 'Enspire', href: 'https://enspireubc.netlify.app/' },
   { name: 'Terra', href: '/terra' },
 ];
 const joinourteam = [
