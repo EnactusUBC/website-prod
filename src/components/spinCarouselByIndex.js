@@ -6,7 +6,7 @@ export default function CarouselByIndex({ index }) {
         return (
 
             <div className='bg-offwhite w-11/12 lg:w-6/12 rounded-2xl flex flex-col items-center border-dark border-4 h-full 2xl:h-0.8 shadow-solid 3xl:h-full'>
-                <Link href='/ennovate'>
+                <Link href='https://www.ennovateubc.org/' target="_blank">
                     <div className="flex flex-col items-center">
                         <Image
                             src='/projectlogos/ennovate.png'
@@ -25,7 +25,7 @@ export default function CarouselByIndex({ index }) {
     if (index == 1) {
         return (
             <div className='bg-offwhite w-11/12 lg:w-6/12 rounded-2xl flex flex-col items-center border-dark border-4 h-full 2xl:h-0.8 shadow-solid 3xl:h-full'>
-                <Link href='/enspire'>
+                <Link href='https://www.enspireubc.ca/' target="_blank">
                     <div className="flex flex-col items-center">
                         <Image
                             src='/projectlogos/enspire.png'
@@ -44,7 +44,7 @@ export default function CarouselByIndex({ index }) {
         return (
 
             <div className='bg-offwhite w-11/12 lg:w-6/12 rounded-2xl flex flex-col items-center border-dark border-4 h-full 2xl:h-0.8 shadow-solid 3xl:h-full'>
-                <Link href='/seeder'>
+                <Link href='https://terraubc.ca/' target="_blank">
                     <div className="flex flex-col items-center">
                         <Image
                             src='/projectlogos/terra.png'
