@@ -1,0 +1,28 @@
+.sponsorContainer {
+  margin: 40px auto;
+  height: 120px;
+  overflow: hidden;
+  display: flex;
+  width: 90%;
+}
+
+.sponsorTrack {
+  display: flex;
+  flex-shrink: 0;
+  animation: scroll 20s linear infinite;
+}
+
+.sponsorImage {
+  max-height: 100px;
+  margin-right: 70px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* shift exactly one full strip */
+  }
+}

@@ -7,7 +7,6 @@ import ennovateImg from "../images/ENNOVATE-W.png"
 import enspireImg from "../images/enspire/enspireLongLogo.png"
 import patchImg from "../images/patch/Patch-logo.png"
 import seederImg from "../../public/projectlogos/terrawhite.png"
-
 // import seederImg from "../images/seeder/seeder-logo.png"
 
 export default function SponsorsPage() {
@@ -121,11 +120,67 @@ export default function SponsorsPage() {
       <div className="mt-4 mb-4 flex flex-col items-center">
         <h1 className=" text-lg lg:text-2xl font-semibold font-[#1E1E1E]">Enactus UBC is proudly affiliated with</h1>
 
-        <div className="flex flex-wrap justify-center items-center gap-12 lg:gap-16 mt-8 overflow-x-hidden w-9/12">
+        <SponsorScrollBar/>
+
+        
+      </div>
+      <Footer />
+    </main>
+  );
+}
+
+const SponsorScrollBar = () => {
+  const sponsorImageMap = {
+    "Evo Logo": "/sponsors/Evo.png",
+    "Guru Energy Logo": "/sponsors/guru.png",
+    "Bakd Logo": "/sponsors/bakd.png",
+    "Wizeprep Logo": "/sponsors/wizeprep.png",
+    "NNECT Logo": "/sponsors/nnect.png",
+    "Rain or Shine Logo": "/sponsors/rainorshinelogo2.png",
+    "Steves Poke Bowl Logo": "/sponsors/steve.png",
+    "Modo Logo": "/sponsors/Modo.png",
+    "Vancouver Water Adventures Logo": "/sponsors/vancouver_water_adventures.png",
+    "Tea Dot Logo": "/sponsors/tea_dot.png",
+    "Hinbor Logo": "/sponsors/hinbor.png",
+    "Tochi Desserts Logo": "/sponsors/tochi.png",
+    "Loafe Logo": "/sponsors/loafe.png",
+    "Koerner's Pub Logo": "/sponsors/koerners.png",
+    "Gyu-kaku Logo": "/sponsors/gyu.png",
+    "Purdy's Logo": "/sponsors/purdys.png",
+    "Starbucks Logo": "/sponsors/Starbucks.png",
+    "Greendale Acres Logo": "/sponsors/greendale.png",
+    "Commerce Community Logo": "/sponsors/commercecommunity.png",
+    "Food Hub Market Logo": "/sponsors/foodhub.png",
+    "Vancity (Wesbrook) Logo": "/sponsors/vancitywesbrook.png",
+    "Vancouver Food Stash Logo": "/sponsors/vanfoodstash.png",
+    "CUS Logo": "/sponsors/cus.png",
+    "CPA Logo": "/sponsors/CPA.png",
+  };
+
+  return(
+    <div className = "sponsorContainer">
+      <div className="sponsorTrack">
+        {Object.entries(sponsorImageMap).map(([alt, src]) => (
+        <img key={alt} className="sponsorImage" src = {src} alt = {alt}/>
+      ))}
+      </div>
+      
+
+      {/* duplicate logos for seamless loop */}
+      <div className="sponsorTrack">
+        {Object.entries(sponsorImageMap).map(([alt, src]) => (
+        <img key={`duplicate-${alt}`} className="sponsorImage" src = {src} alt = {alt}/>
+      ))}
+      </div>
+    </div>
+  )
+}
+
+{/* <div className="flex flex-wrap justify-center items-center gap-12 lg:gap-16 mt-8 overflow-x-hidden w-9/12">
+      <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/mosa_logo.png" alt="Mosa Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/cus.png" alt="CUS Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/cpa.png" alt="CPA Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/Evo.png" alt="Evo Logo" width={200} height={80} />
-          {/* <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/mosa_logo.png" alt="Mosa Logo" width={200} height={80} /> */}
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/guru.png" alt="Guru Energy Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/bakd.png" alt="Bakd Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/wizeprep.png" alt="Wizeprep Logo" width={200} height={80} />
@@ -148,7 +203,7 @@ export default function SponsorsPage() {
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vancitywesbrook.png" alt="Vancity (Wesbrook) Logo" width={200} height={80} />
           <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/vanfoodstash.png" alt="Vancouver Food Stash Logo" width={200} height={80} />
 
-          {/* <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/3M.png" alt="3M Logo" width={200} height={80} />
+     <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/3M.png" alt="3M Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ArtByKate.png" alt="ArtByKate Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ubc.png" alt="UBC Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/ASMFood.png" alt="ASMFood Logo" width={200} height={80} />
@@ -170,9 +225,9 @@ export default function SponsorsPage() {
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/TDBank.png" alt="TDBanks Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/UBCFoodBank.png" alt="UBCFoodBank Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/VeganSupply.png" alt="VeganSupply Logo" width={200} height={80} />
-        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/WalterGage.png" alt="WalterGage Logo" width={200} height={80} /> */}
+        <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/sponsors/WalterGage.png" alt="WalterGage Logo" width={200} height={80} /> 
 
-          {/* New ones: 
+         New ones: 
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/cus_logo.png" alt="CUS Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/cpabc_logo.png" alt="CPABC Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/evo_logo.png" alt="Evo Logo" width={200} height={80} />
@@ -198,10 +253,5 @@ export default function SponsorsPage() {
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/food_hub_market_logo.png" alt="Food Hub Market Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/vancity_wesbrook_logo.png" alt="Vancity (Wesbrook) Logo" width={200} height={80} />
         <Image className="object-contain h-12 lg:h-32 w-16 lg:w-32 md:h-20 md:w-20" src="/path_to_logo/vancouver_food_stash_logo.png" alt="Vancouver Food Stash Logo" width={200} height={80} />
-        */}
-        </div>
-      </div>
-      <Footer />
-    </main>
-  );
-}
+  
+        </div> */}
