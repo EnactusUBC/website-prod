@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const HEROSLIDES = [0, 1, 2];
-  const SPINSLIDES = [0, 1, 2];
+  const SPINSLIDES = [0, 1, 2, 3];
   const OPTIONS = { axis: 'y', loop: true, watchDrag: false }
   // NAVBAR FUNCTION have transparent navbar on load, but change when scroll
   const [nav, setNav] = useState(false);

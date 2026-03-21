@@ -125,6 +125,15 @@
     left: -40%;
     margin-top: 8px;
   }
+
+  .spin_circle_four{
+    transform: rotate(-360deg);
+    transition: transform 0.5s linear;
+    z-index: 0;
+    position: absolute;
+    left: -40%;
+    margin-top: 8px;
+  }
   
   /* < sm */
   @media screen and (max-width: 639px) {
@@ -272,6 +281,11 @@
     margin-top: 10rem;
   }
 
+  .spin_circle_four{
+    left: -20%;
+    margin-top: 10rem;
+  }
+
   }
 
   @media screen and (min-width: 1744px) {
@@ -314,6 +328,11 @@
   }
   
   .spin_circle_three{
+    left: -20%;
+    margin-top: 10rem;
+  }
+
+  .spin_circle_four{
     left: -20%;
     margin-top: 10rem;
   }
