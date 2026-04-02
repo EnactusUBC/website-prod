@@ -46,6 +46,51 @@ export default function CompetitionPage() {
 
           <div className="flex justify-items-center items-center flex-col w-full pb-16">
               <h3 className="text-white font-semibold text-xl lg:text-2xl lg:mb-10  lg:self-start ml-8 mr-8 lg:ml-24 ">
+                  2026 Regionals
+              </h3>
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              TD Entrepreneurship Challenge - 1st Place
+              </h2>
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              Canadian Tire Environmental Sustainability Challenge - 1st Place
+              </h2>
+              <h2 className="text-white text-sm mt-3 lg:text-2xl font-semibold">
+              Desjardins Community Empowerment Challenge - 3rd Place
+              </h2>
+              <h2 className="text-white text-sm mt-3 lg:text-2xl font-semibold">
+              Enactus Alumni Innovation and Impact Challenge - 3rd Place
+              </h2>
+
+              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
+                2025 Nationals
+              </h3>
+              <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
+              Enactus Alumni Innovation and Impact Challenge - 2nd Place
+              </h2>
+              <h2 className="text-white text-sm mt-3 lg:text-2xl font-semibold">
+              Desjardins Youth Empowerment Challenge - 3rd Place
+              </h2>
+              <h2 className="text-white text-sm lg:text-2xl font-semibold">
+              Top 4 Finalist Nationally
+              </h2>
+
+              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
+                2025 Regionals
+              </h3>
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              Desjardins Youth Empowerment Challenge - 1st Place
+              </h2>
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              TD Entrepreneurship Challenge - 1st Place
+              </h2>
+              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
+              Enactus Alumni Innovation and Impact Challenge - 1st Place
+              </h2>
+              <h2 className="text-white text-sm mt-3 lg:text-2xl font-semibold">
+              Canadian Tire Environmental Sustainability Challenge - 2nd Place
+              </h2>
+
+              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
                   2024 Nationals
               </h3>
               <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
@@ -131,38 +176,7 @@ export default function CompetitionPage() {
               <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
                 TD Entrepreneurship Challenge - 2nd Place
               </h2>
-
-              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
-                2021 Regionals
-              </h3>
-              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
-                Scotiabank Climate Change Challenge - 1st Place
-              </h2>
-              <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
-                TD Entrepreneurship Challenge - 2nd Place
-              </h2>
-
-              <h3 className="mt-8 text-white font-semibold text-xl lg:text-2xl ml-8 mr-8 lg:ml-24 lg:mb-10  lg:self-start">
-                2020 Regionals
-              </h3>
-              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
-                CWB Financial Education Challenge - 1st Place
-              </h2>
-              <h2 className="text-enactus-yellow mt-3 text-sm lg:text-2xl font-semibold">
-                Scotiabank Youth Empowerment Challenge - 1st Place
-              </h2>
-              <h2 className="text-white mt-3 text-sm lg:text-2xl font-semibold">
-                Scotiabank Climate Change Challenge - 2nd Place
-              </h2>
-              <h2 className="text-white text-sm lg:text-2xl font-semibold">
-                TD Entrepreneurship Challenge - 2nd Place
-              </h2>
-
-
-
           </div>
-  
-          
         </div>
         <Footer />
       </main>
